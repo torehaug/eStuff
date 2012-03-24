@@ -1,0 +1,32 @@
+diff -c -r srcOrg/eVote-scytl/src/parent-config-0.0.6/pom.xml src/eVote-scytl/src/parent-config-0.0.6/pom.xml
+*** srcOrg/eVote-scytl/src/parent-config-0.0.6/pom.xml	2012-03-24 19:10:24.000000000 +0100
+--- src/eVote-scytl/src/parent-config-0.0.6/pom.xml	2012-03-24 19:25:21.000000000 +0100
+***************
+*** 132,138 ****
+  				<version>1.9.0</version>
+  				<configuration>
+  					<header>etc/license_header.txt</header>
+! 					<failIfMissing>true</failIfMissing>
+  					<aggregate>true</aggregate>
+  					<includes>
+  						<include>**/src/main/java/com/scytl/**/*.java</include>						
+--- 132,138 ----
+  				<version>1.9.0</version>
+  				<configuration>
+  					<header>etc/license_header.txt</header>
+! 					<failIfMissing>false</failIfMissing>
+  					<aggregate>true</aggregate>
+  					<includes>
+  						<include>**/src/main/java/com/scytl/**/*.java</include>						
+***************
+*** 176,179 ****
+  			</plugin>
+  		</plugins>
+  	</reporting>
+! </project>
+\ No newline at end of file
+--- 176,179 ----
+  			</plugin>
+  		</plugins>
+  	</reporting>
+! </project>
