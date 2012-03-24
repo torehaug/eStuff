@@ -1,7 +1,11 @@
 
+This repo contains just changes for the build configuration to make it work.
 
 
-* opensaml
+Requirements
+============
+
+* opensaml (for java)
   http://www.shibboleth.net/downloads/java-opensaml/2.4.0/opensaml-2.4.0-bin.zip
 
 
